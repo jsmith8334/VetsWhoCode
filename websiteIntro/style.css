@@ -1,0 +1,207 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+header{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(47, 85, 118, .3);
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    z-index: 2;
+    background-color: #2f5572;
+    width: 100%;
+    color: white;
+}
+
+.wrapper{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.logo{
+    font-size: 1rem;
+    position: absolute;
+    background-color: #2f5572;
+    color: white;
+    clear: both;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.heading_btn{
+    float:right;   
+}
+
+.nav{
+    float:right;
+    padding-top: 12px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.btn_nav{
+    float: right;
+}
+
+img {
+    max-width:  100%;
+    height: auto;
+}
+    
+.intro{
+    position: relative;
+}
+
+.intro_text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-30%);
+}
+
+.intro_img {
+    filter: grayscale(65%);
+    opacity: 50%;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.intro_h1 {
+    font-weight: 400;
+    color: #2f5572;
+    margin: 0;
+    font-size: 4.0rem;
+}
+    
+ .intro_p {
+    font-weight: 100;
+    font-size: 1.875rem;
+    color: #FFF;
+    margin: 0;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+}
+    
+.btn {
+    background-color: #2f5572;
+    color: #FFF;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+
+}
+
+.btn_orange {
+    background-color: darkorange;
+    box-shadow: 1px;
+}
+
+.btn_large {
+    font-size: 1.25rem;
+    padding: 1.1rem 2rem;   
+}    
+
+.about{
+    box-sizing: border-box;
+}
+
+.about_h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #2f5572;
+}
+
+.about_p{
+    float: right;
+    width: 60%;
+}
+
+.about_img{
+    border-radius: 8px;
+    max-width: 35%;
+    height: auto;
+}
+
+.clear{
+    clear: both;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.skills{
+    font-weight: 200;
+    background-color: #2f5572;
+    padding: 1rem 2rem 2rem 1rem;
+    color: goldenrod;
+    overflow: auto;
+}
+
+.skills_h1{
+    font-weight: 200; 
+    text-align: center;
+}
+
+.skills_h2{
+    padding-left: 25%;
+    font-weight: 200;
+    color: white;
+}
+
+
+.skills_p{
+    padding-left: 25%;
+}
+
+.skills_c1{
+    width: 50%;
+    float: left;
+}
+
+.media{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+@media only screen and (max-width: 800px){
+    .lh_h1 {
+        font-weight: 400;
+        color: #2f5572;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .lh_p {
+    font-weight: 100;
+    font-size: 1rem;
+    color: #FFF;
+    margin: 0;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+    }
+    
+    .btn_nav{
+        visibility: hidden;
+    }
+}

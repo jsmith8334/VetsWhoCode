@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>My Page: Vets Who Code</title>
+        <meta name="description" content="A page providing information about me!">
+        
+    </head>
+
+    <body>
+        <header class="header">
+            <a class="btn btn_nav" href="mailto:jsmith8334@gmail.com">Email Me</a>
+            <div class="wrapper">
+            <div class="logo">
+                <h1 class="logo_h1">My Page: Vets Who Code</h1>    
+            </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#trivia">Trivia</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="intro">
+            <img class="intro_img" src="background.jpg">
+            <div class="intro_text">
+                <h1 class="intro_h1">Jonathan Smith</h1>
+                <h2 class="intro_p">Husband, Dad, IT Professional</h2>
+                <p></p>
+            </div>
+        </div>
+        
+        <div class="about wrapper" id="about">
+            <h2 class="about_h2">A Little Bit About Me...</h2>
+            <div>    
+                <h3 class="about_p">Personal</h3>
+                <p class="about_p">I have been married to my wife for over 14 years now and we have four wonderful children, three girls and one boy.  I have a lot of hobbies that I enjoy, but the one I like the most is coaching archery.  I currently coach my children's competition archery team and am a certified National Archery in the Schools Program (NASP) Basic Archery Instructor and Trainer (BAI and BAIT) as well as a certified USA Archery Level 3 Coach.  I also enjoy playing hockey, board games, 3D printing, and anything that gets me out on the water, like kayaking and sailing.</p>  
+                <br>
+                <h3 class="about_p">Professional</h3>
+                <p class="about_p">I served in the US Navy from 2001 until 2005 as an Intelligence Specialist.  After that I worked with various agencies conducting Intelligence Analysis until about 2013.  I have always enjoyed technology, including programming, so I decided to go back to college and earned my Bachelor's Degree in Information Tehcnology (Enterprise Developement using .NET) from American Military University.  I have been working in the IT field ever since in a multitude of roles including; Developer, System Admin, Project Lead, Product Owner and Scrum Master.</p>
+            </div>
+            <div>
+                <img class="about_img" src="meArchery.jpeg">
+            </div>    
+        </div>
+              
+        <div class="wrapper skills" id="skills">
+            <h1 class="skills_h1">My <strong>Skills</strong> Summary</h1>
+            <div class="skills_row">
+                <div class="skills_c1">
+                    <h2 class="skills_h2">I have experience in these <strong>Programming Languages</strong></h2>
+                    <p class="skills_p">UiPath, <strong>Python,</strong> HTML, CSS, C#, SQL, VBScript, BASH, PowerShell</p>
+                    <h2 class="skills_h2">Experience with these <strong>Environments</strong> and <strong>Operating Systems</strong></h2>
+                    <p class="skills_p"><strong>Linux</strong>, Windows, AWS, Azure</p>
+                </div>            
+                <div class="skills_c1">
+                    <h2 class="skills_h2"><strong>Archery</strong> Certifications</h2>
+                    <p class="skills_p">NASP BAI and BAIT, USA Archery (Level 3)</p>
+                    <h2 class="skills_h2">Random Other <strong>Skills</strong></h2>
+                    <p class="skills_p">Black Belt in Karate, 3D Modeling and Printing, Woodworking, Drone Piloting</p>
+                </div>
+            </div>    
+        </div>
+        
+        <div class="wrapper trivia" id="trivia">
+            <h2>JavaScript Fun</h2>
+            <p>The following button was made using JavaScript...</p>
+            <button type="button" onclick="document.getElementById('time').innerHTML = Date()">Click Me</button>
+            <p id="time"></p>
+        </div>    
+             
+        <footer>
+            <div class="wrapper">
+                <p>Copyright &copy; Jonathan Smith Inc. All Rights Reserved. 
+            </div>
+        </footer>
+        
+        
+    </body>
+
+</html>
