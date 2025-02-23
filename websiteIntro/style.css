@@ -180,26 +180,6 @@ img {
     width: 50%;
     float: left;
 }
-
-.media{
-    padding: 1rem 1rem 1rem 1rem;
-}
-
-@media only screen and (max-width: 800px){
-    .lh_h1 {
-        font-weight: 400;
-        color: #2f5572;
-        margin: 0;
-        font-size: 1.5rem;
-    }
-    
-    .lh_p {
-    font-weight: 100;
-    font-size: 1rem;
-    color: #FFF;
-    margin: 0;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
-    }
     
     .btn_nav{
         visibility: hidden;
